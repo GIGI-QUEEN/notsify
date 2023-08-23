@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354717737771",
+    "project_id": "notsify-my-first-flutter-app",
+    "storage_bucket": "notsify-my-first-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354717737771:android:708b65b79b10dd71cd1b6e",
+        "android_client_info": {
+          "package_name": "ee.gigiapp01.notsify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354717737771-tkt5vmgs0u2rfeve1gugntk6os8fssie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE-1k0LuDsGPaznS630RClqV4Q7lGGB3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354717737771-tkt5vmgs0u2rfeve1gugntk6os8fssie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
