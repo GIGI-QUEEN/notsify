@@ -1,7 +1,7 @@
 import 'package:notsify/services/auth/auth_user.dart';
 
 abstract class AuthProvider {
-  //return current user
+  Future<void> initialize();
   AuthUser? get currentUser;
   Future<AuthUser> logIn({required String email, required String password});
   Future<AuthUser> createuser(
