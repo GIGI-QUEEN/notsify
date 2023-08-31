@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:notsify/constants/routes.dart';
 import 'package:notsify/enums/enums/menu_action.dart';

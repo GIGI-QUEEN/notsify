@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:notsify/services/crud/notes_service.dart';
 import 'package:notsify/utilities/dialogs/delete_dialog.dart';
