@@ -1,6 +1,4 @@
 import 'dart:async';
-import 'dart:developer';
-
 import 'package:flutter/foundation.dart';
 import 'package:notsify/services/crud/crud_exceptions.dart';
 import 'package:sqflite/sqflite.dart';
@@ -76,6 +74,7 @@ class NotesService {
     final notes = await db.query(
       noteTable,
     );
+
     return notes.map((note) => DatabaseNote.fromRow(note));
   }
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:notsify/constants/routes.dart';
 import 'package:notsify/services/auth/auth_service.dart';
 import 'package:notsify/views/login_view.dart';
-import 'package:notsify/views/notes/new_note_view.dart';
+import 'package:notsify/views/notes/create_update_note_view.dart';
 import 'package:notsify/views/notes/notes_view.dart';
 import 'package:notsify/views/register_view.dart';
 import 'views/verify_email_view.dart';
@@ -23,7 +23,7 @@ void main() {
       registerRoute: (context) => const RegisterView(),
       notesRoute: (context) => const NotesView(),
       verifyEmailRoute: (context) => const VerifyEmailView(),
-      newNoteRoute: (context) => const NewNoteView(),
+      createOrUpdateNoteRoute: (context) => const CreateUpdateNoteView(),
     },
   ));
 }
