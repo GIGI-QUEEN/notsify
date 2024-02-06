@@ -9,3 +9,10 @@ The app was created during the course from [freeCodeCamp](https://www.youtube.co
 - Firestore database
 - Firebase Authentication
 - State management with BLoC
+
+# Run project locally
+
+- Proceed to the official guide for flutter "Get started" https://docs.flutter.dev/get-started/install
+- Clone this repo to your machine
+- Run **flutter pub get**
+- Run **main.dart** file with debugger (ctrl+F5 in VSCode)
