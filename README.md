@@ -1,20 +1,11 @@
-# notsify
-<<<<<<< HEAD
+# Notsify
 
-A new Flutter project.
+Notsify is the app for creating and managing user notes that uses Firebase as a backend solution and Flutter for creating frontend part of the project.
+The app was created during the course from [freeCodeCamp](https://www.youtube.com/watch?v=VPvVD8t02U8)
 
-## Getting Started
+# Technologies
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-Notsify - flutter app for creating notes
->>>>>>> main
+- Flutter
+- Firestore database
+- Firebase Authentication
+- State management with BLoC
